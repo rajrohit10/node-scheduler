@@ -14,7 +14,7 @@ server.listen(5001,'127.0.0.1',()=>{
 
 var job = new CronJob('00 30 18 * * 0-6', function() {
     console.log("Cron job running")
-    opn('http://divisor.in');
+    opn('https://dev.dashboard.audit.one/');
 
   },null,
   true, /* Start the job right now */
